@@ -1,0 +1,30 @@
+// Se déplacer dans le fichier
+
+x : Effacer le nombre de lignes
+4x : Efface les 4 prochaines lettres en partant du curseur
+dd : Supprime la ligne actuelle (copie)
+2dd : Supprime 2 lignes d'un coup (copie)
+p : Colle
+6p: Colle 8 fois le texte enregistré
+dw : Placé au début d'un mot le supprime
+d0: Supprime le début de la ligne
+d$: Supprime la fin de la ligne
+yy: Copie la ligne en cours
+yw: Copie le mot
+r+lettre : Remplace la lettre sélectionnée par la lettre tapée
+u: Annule les dernières modifications
+3G: Va à la 3ème ligne
+
+
+//Commandes avancées
+/: entre dans le mode recherche -> Puis entrée
+ -> n: va à l'occurence suivante
+:s/ancien/nouveau : remplace le premier mot par le deuxième
+:s/ancien/nouveau/g : remplace toutes les occurrences de la ligne où se trouve le curseur
+:#,#s/ancien/nouveau/g : remplace toutes les occurrences dans les lignes n° # à # du fichier
+:%s/ancien/nouveau/g : remplace toutes les occurrences dans tout le fichier
+
+
+
+ 
+
